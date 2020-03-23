@@ -9,8 +9,8 @@ function App() {
   const [scoreHome, setScoreHome] = useState(0);
   const [scoreAway, setScoreAway] = useState(0);
 
-  //console.log(setScoreHome(7));
-  //console.logDOM(setScoreHome(14));
+  //console.log(()=>setScoreHome(7));
+  //console.log(()=>setScoreAway(14));
 
   return (
     <div className="container">
